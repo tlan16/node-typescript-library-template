@@ -7,8 +7,7 @@
     "build": "./node_modules/.bin/del dist && tsc --project tsconfig.build.json",
     "test": "node --no-warnings=ExperimentalWarning --loader @swc-node/register/esm --test **/*.spec.ts",
     "lint": "./node_modules/.bin/eslint",
-    "check-types": "../../node_modules/.bin/tsc --noEmit",
-    "prepare": "./node_modules/.bin/husky"
+    "check-types": "../../node_modules/.bin/tsc --noEmit"
   },
   "main": "packages/lib/main.ts",
   "devDependencies": {
@@ -26,7 +25,6 @@
     "del-cli": "^5.1.0",
     "eslint": "^9.3.0",
     "eslint-plugin-unused-imports": "^4.0.0",
-    "husky": "^9.0.11",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.10.0"
   },
