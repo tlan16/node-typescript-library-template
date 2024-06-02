@@ -77,6 +77,10 @@ importers:
         version: 7.11.0(eslint@9.4.0)(typescript@5.4.5)
 
   packages/test:
+    dependencies:
+      nodejs-library:
+        specifier: workspace:*
+        version: link:../lib
     devDependencies:
       '@eslint/js':
         specifier: ^9.3.0
@@ -117,9 +121,6 @@ importers:
       eslint-plugin-unused-imports:
         specifier: ^4.0.0
         version: 4.0.0(eslint@9.4.0)
-      nodejs-library:
-        specifier: workspace:*
-        version: link:../lib
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
