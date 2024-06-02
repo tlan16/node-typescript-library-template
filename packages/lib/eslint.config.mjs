@@ -59,7 +59,7 @@ const typescriptConfigs = [
     ...config,
   })),
   {
-    files: ['**/*.ts'],
+    files: ['*.ts', '**/*.ts'],
     languageOptions: {
       parserOptions: {
         project: true,
