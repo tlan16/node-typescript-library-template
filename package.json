@@ -2,13 +2,13 @@
   "name": "nodejs-application",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env --no-warnings=ExperimentalWarning --loader @swc-node/register/esm lib/main.ts",
-    "dev": "node  --env-file=.env --no-warnings=ExperimentalWarning --loader @swc-node/register/esm --watch lib/main.ts",
+    "start": "node --no-warnings=ExperimentalWarning --loader @swc-node/register/esm lib/main.ts",
+    "dev": "node --no-warnings=ExperimentalWarning --loader @swc-node/register/esm --watch lib/main.ts",
     "build": "del dist && tsc --project tsconfig.build.json",
-    "test": "node --env-file=.env --no-warnings=ExperimentalWarning --loader @swc-node/register/esm --test **/*.spec.ts",
+    "test": "node --no-warnings=ExperimentalWarning --loader @swc-node/register/esm --test **/*.spec.ts",
     "lint": "eslint",
     "check-types": "tsc --noEmit",
-    "prepack": "husky"
+    "prepare": "husky"
   },
   "main": "lib/main.ts",
   "devDependencies": {
@@ -18,7 +18,6 @@
     "@swc-node/register": "^1.9.1",
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.5.7",
-    "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node22": "^22.0.0",
     "@tsconfig/strictest": "^2.0.5",
     "@types/eslint": "^8.56.10",
@@ -34,9 +33,7 @@
     "typescript-eslint": "^7.10.0"
   },
   "dependencies": {
-  },
-  "engines": {
-    "node": "^22.2.0"
+    "zod": "^3.23.8"
   },
   "packageManager": "pnpm@9.1.4"
 }
