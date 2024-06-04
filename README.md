@@ -11,3 +11,7 @@ It uses:
 7. pnpm and corepack for package management.
 8. latest eslint with flat config.
 9. Used eslint stylistic instead prettier.
+
+Example projects using this template:
+
+1. https://www.npmjs.com/package/lib-racv-http-client
