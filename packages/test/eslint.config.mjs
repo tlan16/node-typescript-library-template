@@ -10,7 +10,6 @@ import tseslint from 'typescript-eslint';
  */
 const globalIgnoreConfig = {
   ignores: [
-    'examples/',
   ],
 };
 
