@@ -13,8 +13,8 @@ const config = {
   ...Object.fromEntries(packageConfigs),
   "*.md": "pnpm dlx prettier --parser markdown --write",
   "*.sh": "pnpm dlx shellcheck",
-  "*.yaml": "yamllint",
-  "*.yml": "yamllint",
+  "*.yaml": "pipx run yamllint",
+  "*.yml": "pipx run yamllint",
   ".husky/pre-commit": "pnpm dlx shellcheck",
 };
 
