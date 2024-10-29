@@ -18,7 +18,7 @@
     "@tsconfig/node22": "^22.0.0",
     "@tsconfig/strictest": "^2.0.5",
     "@types/eslint__js": "^8.42.3",
-    "@types/node": "^20.12.12",
+    "@types/node": "^22.0.0",
     "@types/user-agents": "^1.0.4",
     "del-cli": "^5.1.0",
     "eslint": "^9.4.0",
