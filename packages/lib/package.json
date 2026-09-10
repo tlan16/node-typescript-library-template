@@ -23,7 +23,7 @@
     "del-cli": "^5.1.0",
     "eslint": "^9.4.0",
     "eslint-plugin-unused-imports": "^4.0.0",
-    "typescript": "^5.4.5",
+    "typescript": "^7.0.0",
     "typescript-eslint": "^8.0.0"
   },
   "dependencies": {
