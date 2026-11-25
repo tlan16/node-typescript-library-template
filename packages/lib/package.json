@@ -13,7 +13,7 @@
     "@stylistic/eslint-plugin-js": "^4.0.0",
     "@stylistic/eslint-plugin-ts": "^4.0.0",
     "@swc-node/register": "^1.9.1",
-    "@swc/cli": "^0.7.0",
+    "@swc/cli": "^0.8.0",
     "@swc/core": "^1.5.7",
     "@tsconfig/node22": "^22.0.0",
     "@tsconfig/strictest": "^2.0.5",
